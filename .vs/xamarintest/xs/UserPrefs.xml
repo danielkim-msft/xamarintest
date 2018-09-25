@@ -1,25 +1,24 @@
 ﻿<Properties StartupConfiguration="{49B876DC-E5F6-4977-9D13-C1682FF176CF}|Default">
-  <MonoDevelop.Ide.ItemProperties.TodayExtension FirstBuild="True">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.TodayExtension>
-  <MonoDevelop.Ide.ItemProperties.xamarintest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B697C43B-0875-4FC0-9E83-DDD24DE30D22" FirstBuild="True" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="xamarintest.iOS/Info.plist">
+  <MonoDevelop.Ide.ItemProperties.TodayExtension FirstBuild="True" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.xamarintest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" FirstBuild="True" automaticSigning="False" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TodayExtension/Info.plist">
     <Files>
       <File FileName="xamarintest/MainPage.xaml.cs" Line="1" Column="1" />
       <File FileName="xamarintest/MainPage.xaml" Line="7" Column="15" />
       <File FileName="TodayExtension/TodayViewController.cs" Line="1" Column="1" />
       <File FileName="xamarintest.iOS/Info.plist" />
       <File FileName="ActionExtension/ActionViewController.cs" Line="1" Column="1" />
+      <File FileName="xamarintest.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="ActionExtension/Info.plist" />
+      <File FileName="TodayExtension/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Ad-Hoc|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.xamarintest FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ActionExtension FirstBuild="True">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.ActionExtension>
+  <MonoDevelop.Ide.ItemProperties.ActionExtension FirstBuild="True" automaticSigning="False" />
 </Properties>
