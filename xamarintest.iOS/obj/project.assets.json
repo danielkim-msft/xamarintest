@@ -125,6 +125,15 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
+      "ActionExtension/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ActionExtension.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ActionExtension.dll": {}
+        }
+      },
       "TodayExtension/1.0.0": {
         "type": "project",
         "compile": {
@@ -270,6 +279,15 @@
         "build": {
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "ActionExtension/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ActionExtension.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ActionExtension.dll": {}
         }
       },
       "TodayExtension/1.0.0": {
@@ -419,6 +437,15 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
+      "ActionExtension/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ActionExtension.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ActionExtension.dll": {}
+        }
+      },
       "TodayExtension/1.0.0": {
         "type": "project",
         "compile": {
@@ -564,6 +591,15 @@
         "build": {
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "ActionExtension/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ActionExtension.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ActionExtension.dll": {}
         }
       },
       "TodayExtension/1.0.0": {
@@ -740,6 +776,11 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "ActionExtension/1.0.0": {
+      "type": "project",
+      "path": "../ActionExtension/ActionExtension.csproj",
+      "msbuildProject": "../ActionExtension/ActionExtension.csproj"
+    },
     "TodayExtension/1.0.0": {
       "type": "project",
       "path": "../TodayExtension/TodayExtension.csproj",
@@ -753,6 +794,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "ActionExtension >= 1.0.0",
       "TodayExtension >= 1.0.0",
       "Xamarin.Forms >= 3.1.0.697729",
       "xamarintest >= 1.0.0"
@@ -787,6 +829,9 @@
             },
             "/Users/danielkim/Projects/xamarintest/TodayExtension/TodayExtension.csproj": {
               "projectPath": "/Users/danielkim/Projects/xamarintest/TodayExtension/TodayExtension.csproj"
+            },
+            "/Users/danielkim/Projects/xamarintest/ActionExtension/ActionExtension.csproj": {
+              "projectPath": "/Users/danielkim/Projects/xamarintest/ActionExtension/ActionExtension.csproj"
             }
           }
         }
