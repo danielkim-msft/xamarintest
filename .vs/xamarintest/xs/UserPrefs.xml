@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{49B876DC-E5F6-4977-9D13-C1682FF176CF}|Default">
   <MonoDevelop.Ide.ItemProperties.TodayExtension automaticSigning="False" />
-  <MonoDevelop.Ide.ItemProperties.xamarintest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9FCC550C-F785-4B52-9255-E89751A8CA7C" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="xamarintest.iOS/AppDelegate.cs">
+  <MonoDevelop.Ide.ItemProperties.xamarintest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9FCC550C-F785-4B52-9255-E89751A8CA7C" automaticSigning="False" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="xamarintest.iOS/Info.plist">
     <Files>
       <File FileName="xamarintest/App.xaml.cs" Line="16" Column="39" />
-      <File FileName="xamarintest.iOS/AppDelegate.cs" Line="33" Column="26" />
+      <File FileName="xamarintest.iOS/AppDelegate.cs" Line="31" Column="75" />
       <File FileName="xamarintest.iOS/Properties/AssemblyInfo.cs" Line="1" Column="1" />
       <File FileName="xamarintest.iOS/Main.cs" Line="19" Column="59" />
       <File FileName="xamarintest.iOS/Resources/LaunchScreen.storyboard" />
       <File FileName="xamarintest/MainPage.xaml" Line="9" Column="15" />
       <File FileName="xamarintest/MainPage.xaml.cs" Line="29" Column="21" />
       <File FileName="xamarintest/App.xaml" Line="5" Column="15" />
+      <File FileName="xamarintest.iOS/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
