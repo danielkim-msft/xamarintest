@@ -7,6 +7,8 @@ namespace xamarintest
 {
     public partial class App : Application
     {
+        Button crash;
+        Button error;
         public App()
         {
             InitializeComponent();

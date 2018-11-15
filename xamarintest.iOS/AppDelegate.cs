@@ -5,6 +5,10 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+
 namespace xamarintest.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -24,6 +28,8 @@ namespace xamarintest.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+            AppCenter.SetLogUrl("https://in-integration.dev.avalanch.es");
+            AppCenter.Start("e2c080db-a3ea-4751-942f-07f9716dba4b", typeof(Analytics), typeof(Crashes));
 
             return base.FinishedLaunching(app, options);
         }
